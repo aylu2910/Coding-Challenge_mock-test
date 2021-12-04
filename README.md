@@ -22,8 +22,8 @@ paresEImpares(10,7,’prueba’)
 ### 2. Index o Value? 
 Crea una función llamada "min" que tome dos parámetros. Un arreglo de números desordenados y un string que va a valer "index" o "value". Si el string es "value", la función deberá devolver el número más chico del array. Si el string es "index", la función deberá devolver el índice (la posición) del número más chico en el array. 
 	Ejemplo:
-- min([5,8,2,3,4,9,1,18], “index”) debe retornar 6 (porque es el índice del 1 que es el menor)
-- min([5,8,2,3,4,9,1,18], “value”) debe retornar 1 (porque 1 es el menor número)
+- min([5,8,2,3,4,9,1,18], "index") debe retornar 6 (porque es el índice del 1 que es el menor)
+- min([5,8,2,3,4,9,1,18], "value") debe retornar 1 (porque 1 es el menor número)
 
 ### 3. Doble Filtro
 
@@ -109,7 +109,7 @@ Deben crear una función llamada doubleFilter que reciba como parámetro un arre
 Ahora deben refactorizar la función doubleFilter, que recibirá los mismos tres parámetros pero en vez de devolver un arreglo con los nombres de los países que cumplan con las condiciones, devolverá un objeto con una key ‘nombres’ que tendrá como valor un arreglo con los nombres de los países y otra llamada ‘población total’ cuyo valor sea la suma de las poblaciones de los países filtrados.
 
 Ejemplo:
-doubleFilter(paises, ‘sudamerica’, 30000000) debe retornar:
+doubleFilter(paises, "sudamerica", 30000000) debe retornar:
 ```
 {
     nombres: [‘argentina’, ‘brasil],
@@ -121,7 +121,7 @@ doubleFilter(paises, ‘sudamerica’, 30000000) debe retornar:
 Ahora, la función doubleFilter debe retornar un objeto que, además de tener las keys nombres y población total, tenga una key mayor y una menor en la que guarde el nombre de los países con mayor y menor población respectivamente.
 
 Ejemplo:
-doubleFilter(paises, ‘sudamerica’, 30000000) debe retornar:
+doubleFilter(paises, "sudamerica", 30000000) debe retornar:
 ```
 {
     nombres: [‘argentina’, ‘brasil],
